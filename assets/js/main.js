@@ -75,14 +75,14 @@ const CONFIG = {
       iframe.width = String(width);
       iframe.height = "520";
       iframe.loading = "lazy";
-      iframe.title = "Huge Brew Food House sa Facebook";
+      iframe.title = "Huge Brew Food House on Facebook";
       iframe.allow = "encrypted-media";
       embed.appendChild(iframe);
     } else {
       embed.innerHTML = `
         <a class="fb-card" href="${url}" target="_blank" rel="noopener">
           <img src="assets/images/logo/logo.jpg" alt="" width="72" height="72">
-          <div><strong>Huge Brew Food House</strong><span>Tingnan ang mga bagong post sa Facebook</span></div>
+          <div><strong>Huge Brew Food House</strong><span>See our latest posts on Facebook</span></div>
         </a>`;
     }
   }
